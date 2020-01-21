@@ -1,0 +1,177 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px dotted red;
+}
+
+#wrapper {
+    background-color: rgb(219, 219, 217);
+    width: 920px;
+    height: 1215px;
+}
+
+
+#wrapper #topbar h1, #wrapper #topbar h2 {
+    display: inline-block;
+}
+
+#wrapper #topbar h1 {
+    font-family: "Comic Sans MS", "Didot","Times New Roman", sans-serif;
+    margin: 10px;
+}
+
+#wrapper #topbar h2 {
+    float: right;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+#content {
+    background-image: radial-gradient(rgb(122, 61, 95)40%,rgb(74, 14, 47));
+    height: 1075px;
+    width: 920px;
+}
+
+#photo_of_me img {
+    border: 5px solid grey;
+    max-width: 400px;
+    height: 337px;
+    margin: 30px;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+
+#photo_of_me {
+    display: inline-block;
+}
+
+#about .box_topbar {
+    background-image: linear-gradient(#d1d1d1,#8c8c8c,#d1d1d1);
+    height: 30px;
+    width: 400px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#about .box_topbar h2 {
+    color: white;
+}
+
+#about {
+    background-image: linear-gradient(to right,white,#756775);
+    width: 410px;
+    height: 347px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 10;
+    
+}
+
+.tribox {
+    display: inline-block;
+    height: 630px;
+    width: 260px;
+    background-image: linear-gradient(to right,white,#756775);
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.tribox_topbar {
+    color: white;
+    font-family: sans-serif;
+    width: 260px;
+    height: 35px;
+    background-image: linear-gradient(#d1d1d1,#8c8c8c,#d1d1d1);
+    vertical-align: top;
+}
+
+.tribox_topbar h2 {
+    display: inline-block;
+}
+
+.tribox img {
+    display: inline-block;
+    width: 260px;
+    height: auto;
+}
+
+.tribox .text {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#content #about .box_topbar a {
+    vertical-align: bottom;
+}
+
+
+.techbar {
+    color: white;
+    font-family: sans-serif;
+    width: 260px;
+    height: 35px;
+    background-image: linear-gradient(#d1d1d1,#8c8c8c,#d1d1d1);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.techbar h4 {
+    font-size: 16px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.techlogos img {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+}
+
+.textbox {
+    height: 250px;
+}
+
+.tech_button {
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30%;
+}
+
+
+.tech_button a {
+    color: white;
+}
+
+.bottombar {
+    text-align: center;
+}
+
+.bottombar p {
+    text-align: center;
+}
+
+.bottombar img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+
+
+
+
